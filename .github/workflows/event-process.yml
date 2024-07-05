@@ -9,7 +9,7 @@ on:
     types: [created]
   # synchronize is the pull_request_target event when changes are pushed
   # pull request merged is the closed event with github.event.pull_request.merged = true
-  pull_request_target:
+  pull_request:
     types: [closed, labeled, opened, reopened, review_requested, synchronize, unlabeled]
 
 # This removes all unnecessary permissions, the ones needed will be set below.
