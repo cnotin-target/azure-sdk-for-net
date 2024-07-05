@@ -110,7 +110,7 @@ jobs:
       # in between the Start/End-Build From Source comments and comment everything in between the
       # Start/End-Install comments
       # Start-Install
-      - name: Install GitHub Event Processor
+      - name: COUCOU Install GitHub Event Processor
         run: >
           dotnet tool install
           Azure.Sdk.Tools.GitHubEventProcessor
