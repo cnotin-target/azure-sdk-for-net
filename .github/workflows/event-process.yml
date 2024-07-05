@@ -30,7 +30,7 @@ jobs:
       contents: read
     name: Handle ${{ github.event_name }} ${{ github.event.action }} event with azure login
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'issues' && github.event.action == 'opened' }}
+    #if: ${{ github.event_name == 'issues' && github.event.action == 'opened' }}
     steps:
       - name: 'Az CLI login'
         uses: azure/login@v2
